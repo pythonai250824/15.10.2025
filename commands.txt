@@ -1,0 +1,16 @@
+
+
+== requirements.txt
+streamlit==1.38.0
+pandas==2.2.3
+
+without == will install latest
+
+== create the requirements.txt file
+pip freeze > requirements.txt
+
+== installs all the libs from requirements.txt file
+pip install -r requirements.txt
+
+== running the server
+streamlit run app.py --server.port 8502
